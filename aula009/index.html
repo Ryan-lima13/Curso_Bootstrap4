@@ -10,6 +10,76 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
+    <form style="padding: 20px;">
+       
+        <h2>Grupo prepend</h2>
+        <div>
+            <div>
+                <span>@</span>
+            </div>
+            <input class="form-control" type="text" placeholder="e-mail">
+        </div> 
+ 
+        <h2>Grupo append</h2>
+        <div>
+             <input class="form-control" type="text" placeholder="e-mail">
+            <div>
+                <span>@site.com</span>
+            </div>
+        </div> 
+ 
+        <h2>URL customizada</h2>
+         <div class="input-group">
+             <div>
+                <span>
+                    https://site.com/usuario/
+                </span>
+            </div>
+            <input class="form-control" type="text" placeholder="Digite seu usuário">
+         </div>
+ 
+         <h2>Moeda</h2>
+         <div class="input-group">
+             <div>
+                <span>$</span>
+            </div>
+            <input class="form-control" type="text" placeholder="Digite um valor">
+            <div>
+                <span>,00</span>
+            </div>
+         </div>
+ 
+         <!--
+         type: checkbox / radio
+         -->
+         <h2>Checkbox / radio</h2>
+         <div class="input-group">
+             <div>
+                <div>
+                    <input type="radio">
+                </div> 
+             </div>
+             <input type="text" class="form-control">
+         </div>
+ 
+         <h2>Múltiplos inputs</h2>
+         <div class="input-group">
+            <div>
+                <span>nome/e-mail</span>
+            </div>
+            <input class="form-control" type="text" placeholder="e-mail">
+            <input class="form-control" type="password" placeholder="senha">
+        </div> 
+ 
+        <h2>Pesquisas</h2>
+        <div class="input-group">
+            <input class="form-control" type="text" placeholder="Pesquisar" >
+            <div class="input-group-append">
+                <button type="button">Pesquisar</button>
+            </div>
+        </div>
+ 
+     </form>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
